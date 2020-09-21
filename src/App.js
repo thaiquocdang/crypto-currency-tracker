@@ -12,10 +12,10 @@ function App() {
   };
   
   return (
-    <div className="App">
-      <h2>Crypto price tracker</h2>
+    <div className="app">
+      <h1>Crypto currency price tracker</h1>
       <Search handleChange={handleChange}/>
-      <PriceBoard search={search} />
+      <PriceBoard search={search} className='price-board'/>
     </div>
   );
 }
